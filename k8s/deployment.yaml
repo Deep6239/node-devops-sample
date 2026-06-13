@@ -27,7 +27,7 @@ spec:
       containers:
       - name: mern-devops-container
 
-        image: ECR_REPO
+        image: IMAGE_PLACEHOLDER
 
         ports:
         - containerPort: 3000
