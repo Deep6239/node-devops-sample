@@ -8,4 +8,12 @@ routres.get('/info', (req, res) => {
   });
 });
 
+routres.get('/data', (req, res) => {
+  res.json({
+    name: 'Mern pipeline',
+    description: 'Mern pipeline for devops',
+    version: '1.1.0'
+  });
+});
+
 module.exports = routres;
