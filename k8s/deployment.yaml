@@ -27,7 +27,7 @@ spec:
       containers:
       - name: mern-devops-container
 
-        image: 952654481469.dkr.ecr.ap-south-1.amazonaws.com/mern-devops-app:1.0
+        image: IMAGE_PLACEHOLDER
 
         ports:
         - containerPort: 3000
